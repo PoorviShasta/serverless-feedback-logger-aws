@@ -66,11 +66,6 @@ serverless-feedback-logger-aws
 * Create bucket (example: `feedback-collection-system`)
 * Optionally create folder `uploads/`
 
-📷 Screenshot:
-
-![S3 Bucket](<img width="1004" height="507" alt="image" src="https://github.com/user-attachments/assets/042e2b5d-bfda-4238-a0aa-cb4e55044a15" />
-)
-
 ---
 
 ## Step 2: Create Lambda Function
@@ -85,11 +80,6 @@ Add S3 trigger:
 * Prefix: `uploads/`
 * Suffix: `.json` or `.txt`
 
-📷 Screenshot:
-
-![Lambda](<img width="1004" height="506" alt="image" src="https://github.com/user-attachments/assets/07590009-8ccd-44c3-9e5d-a59c56e28bc8" />
-)
-
 ---
 
 ## Step 3: Configure IAM Permissions
@@ -99,10 +89,6 @@ Attach policies to Lambda role:
 * `AmazonS3ReadOnlyAccess`
 * `CloudWatchLogsFullAccess`
 
-📷 Screenshot:
-
-![IAM](<img width="1004" height="505" alt="image" src="https://github.com/user-attachments/assets/c7160db5-2489-47f6-88c9-bf36c2ffde10" />
-)
 
 ---
 
@@ -112,10 +98,7 @@ Navigate to:
 
 CloudWatch → Log Groups → `/aws/lambda/feedbackserviceL`
 
-📷 Screenshot:
 
-![CloudWatch](<img width="1004" height="498" alt="image" src="https://github.com/user-attachments/assets/86dadfdb-ddb3-4ce6-b6cd-f531f47b76ab" />
-)
 
 ---
 
