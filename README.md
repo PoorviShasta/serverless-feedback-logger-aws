@@ -6,6 +6,7 @@ Many applications require user feedback to improve services. Traditional feedbac
 
 The system uses **Amazon S3, AWS Lambda, and Amazon CloudWatch** to build a scalable and cost-efficient feedback processing pipeline.
 
+
 ---
 
 # 🏗 Architecture
